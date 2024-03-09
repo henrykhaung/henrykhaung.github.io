@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Henry Khaung</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <div class="window">
+        <div class="outer yosemite">
+          <button class="dot red" onclick="print_close()"></button>
+          <button class="dot amber"></button>
+          <button class="dot green"></button>
+          <button id="window-name" onclick="miscbutton()">Henry Khaung</button>
+        </div>
+        <div id="profile-box">
+          <div id="profile">
+            <img
+              id="profile-image"
+              src="assets/profile_image.png"
+              alt="profile image"
+            />
+            <div id="profile-description">
+              <h3>Hi there!</h3>
+              <p>
+                I am currently a student at UC Berkeley studying Electrical
+                Engineering and Computer Sciences. I am interested in web dev
+                and computer graphics!
+              </p>
+              <p>
+                In my free time, you can find me at the gym shooting some hoops,
+                playing osu!, or at the local farmers' market enjoying free
+                samples.
+              </p>
+            </div>
+          </div>
+
+          <div id="profile-contact">
+            <a href="mailto:henrykhaung@berkeley.edu" target="_blank"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/henrykhaung/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/henrykhaung" target="_blank"
+              ><i class="fa-brands fa-github-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
