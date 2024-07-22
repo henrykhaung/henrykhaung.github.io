@@ -1,9 +1,6 @@
-* {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  /* background: linear-gradient(to bottom, #4338c7, 75%, #ffffff); */
-}
-
 body {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #800080, #ffffff);
@@ -76,11 +73,12 @@ body {
 }
 
 #window-name {
-  font-size: 12px;
+  font-size: 14px;
+  font-family: "JetBrains Mono", monospace;
   font-weight: bold;
   display: inline-block;
   align-items: center;
-  margin-left: 234px;
+  margin-left: 220px;
   border: none;
   background: none;
   cursor: pointer;
@@ -153,4 +151,9 @@ a {
 a:visited {
   text-decoration: none;
   color: white;
+}
+
+#receipt-calc-link {
+  text-decoration: underline;
+  color: lightblue;
 }
