@@ -148,12 +148,12 @@ a {
   color: white;
 }
 
-a:visited {
+#profile-contact a:visited {
   text-decoration: none;
   color: white;
 }
 
-#receipt-calc-link {
+.project-link {
   text-decoration: underline;
   color: lightblue;
 }
